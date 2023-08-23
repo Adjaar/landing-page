@@ -1,0 +1,10 @@
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.blank-img {
+    width: 100px;
+    height: 100px;
+    border: solid 1px blue;
+}
