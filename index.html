@@ -5,9 +5,12 @@
  <Title>Landing Page</Title>
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="stylesheet" href="styles/styles.css">
-
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="first-section">
     <header>
         <div class="logo">Header Logo</div>
         <ul>
@@ -16,40 +19,41 @@
             <li><a>header link three</a></li>
         </ul>
     </header>
-    <div class="content">
-        <h2>This website is awesome</h2>
+    <div class="hero">
+        <h2 id="hero-main-text">This website is awesome</h2>
         <p class="text">This website has some subtext that goes here under the main title. It's a smaller font and the colour is lower contrast</p>
         <img src="images/placeholder.jpg" alt="A placeholder image">
-        <button class="main-button">Sign up</button>
+        <button>Sign up</button>
     </div>
-    <div class="Information">
+  </div>  
+    <div class="information">
         <div class="title">Some random information.</div>
         <div class="item">
             <div class="blank-img"></div>
-            <div class="text">this is some subtext under and illustration or image</div>
+            <div>this is some subtext under and illustration or image</div>
         </div>
         <div class="item">
             <div class="blank-img"></div>
-            <div class="text">this is some subtext under and illustration or image</div>
+            <div>this is some subtext under and illustration or image</div>
         </div>
         <div class="item">
             <div class="blank-img"></div>
-            <div class="text">this is some subtext under and illustration or image</div>
+            <div>this is some subtext under and illustration or image</div>
         </div>
         <div class="item">
             <div class="blank-img"></div>
-            <div class="text">this is some subtext under and illustration or image</div>
+            <div>this is some subtext under and illustration or image</div>
         </div>
     </div>
     <div class="quote-section">
         <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, 
             or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-        <div class="author">Thor, God of Thunder</div>
+        <div class="author">-Thor, God of Thunder</div>
     </div>
-    <div class="Sign-up">
+    <div class="sign-up">
         <div class="logo">Call to action! It's time!</div>
-        <div class="text">Sign up for our product by clicking that button right over there!</div>
-        <button class="bottom-button">Sign up</button>
+        <div>Sign up for our product by clicking that button right over there!</div>
+        <button id="bottom-button">Sign up</button>
     </div>
     <footer>Copyright © The Odin Project 2021</footer>
 </body>
