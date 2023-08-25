@@ -10,8 +10,8 @@ img {
 }
 
 .blank-img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 15px;
     border: solid 2px #3882F6;
 }
@@ -55,16 +55,27 @@ button {
 
 #bottom-button {
     border: 2px solid #F9FAF8;
+    margin: 12px;
 }
 
 .title {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    text-align: center;
+    margin: 16px;
 }
 
 .quote-section {
     background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    margin: 32px 0px;
+}
+
+.quote-container {
+    width: 60%;
+    margin: auto;
 }
 
 .quote {
@@ -73,15 +84,18 @@ button {
     font-weight: 400;
     font-style: italic;
     color: #1F2937;
+    padding: 24px;
 }
 
 .author {
     font-weight: bold;
+    text-align: right;
 }
 
 footer {
     color: #FFF;
     text-align: center;
+    padding: 24px;
 }
 
 header {
@@ -113,10 +127,30 @@ li {
     flex-direction: column;
     align-items: flex-start;
     height: 300px;
-    width: 300px;
+    width: 450px;
     margin: 0px 80px;
 }
 
-.text {
-    width: 400px;
+.item-container {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+
+.item {
+    width: 150px;
+}
+
+.item-text {
+    text-align: center;
+}
+
+.sign-up {
+    width: 50%;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-around;
 }
